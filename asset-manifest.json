@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/oolam/static/css/main.b4c65c17.css",
+    "main.js": "/oolam/static/js/main.caacbaf5.js",
+    "static/js/787.aa6d1c78.chunk.js": "/oolam/static/js/787.aa6d1c78.chunk.js",
+    "index.html": "/oolam/index.html",
+    "main.b4c65c17.css.map": "/oolam/static/css/main.b4c65c17.css.map",
+    "main.caacbaf5.js.map": "/oolam/static/js/main.caacbaf5.js.map",
+    "787.aa6d1c78.chunk.js.map": "/oolam/static/js/787.aa6d1c78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4c65c17.css",
+    "static/js/main.caacbaf5.js"
+  ]
+}
