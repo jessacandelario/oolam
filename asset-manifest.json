@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/oolam/static/css/main.61687e9e.css",
-    "main.js": "/oolam/static/js/main.20b2d577.js",
+    "main.css": "/oolam/static/css/main.65a07d91.css",
+    "main.js": "/oolam/static/js/main.44751c42.js",
     "static/js/787.aa6d1c78.chunk.js": "/oolam/static/js/787.aa6d1c78.chunk.js",
+    "static/media/Oolam logo 2.jpg": "/oolam/static/media/Oolam logo 2.fa5c56850c590291e97e.jpg",
     "index.html": "/oolam/index.html",
-    "main.61687e9e.css.map": "/oolam/static/css/main.61687e9e.css.map",
-    "main.20b2d577.js.map": "/oolam/static/js/main.20b2d577.js.map",
+    "main.65a07d91.css.map": "/oolam/static/css/main.65a07d91.css.map",
+    "main.44751c42.js.map": "/oolam/static/js/main.44751c42.js.map",
     "787.aa6d1c78.chunk.js.map": "/oolam/static/js/787.aa6d1c78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61687e9e.css",
-    "static/js/main.20b2d577.js"
+    "static/css/main.65a07d91.css",
+    "static/js/main.44751c42.js"
   ]
 }
