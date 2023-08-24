@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/oolam/static/css/main.65a07d91.css",
-    "main.js": "/oolam/static/js/main.44751c42.js",
+    "main.css": "/oolam/static/css/main.c931afd7.css",
+    "main.js": "/oolam/static/js/main.8a433270.js",
     "static/js/787.aa6d1c78.chunk.js": "/oolam/static/js/787.aa6d1c78.chunk.js",
+    "static/media/Porridge.jpg": "/oolam/static/media/Porridge.5467b9e02e1363fbfad5.jpg",
+    "static/media/Banana Cake.jpg": "/oolam/static/media/Banana Cake.0f645a0b89bbf2d8d149.jpg",
+    "static/media/Fruit Crumble.jpg": "/oolam/static/media/Fruit Crumble.7440d70f15b9a0b3c5ba.jpg",
+    "static/media/Bliss Balls.jpg": "/oolam/static/media/Bliss Balls.7733ded56da869cb52b5.jpg",
+    "static/media/Choco Berry Bar.jpg": "/oolam/static/media/Choco Berry Bar.ca712fb0696f62fb3408.jpg",
+    "static/media/Fish Couscous.jpg": "/oolam/static/media/Fish Couscous.67d7b153e847c91dee48.jpg",
+    "static/media/Crunch Platter.jpg": "/oolam/static/media/Crunch Platter.52aabaa5f6748bdf3f25.jpg",
+    "static/media/Chick Pumpkin Pasta.jpg": "/oolam/static/media/Chick Pumpkin Pasta.df40426fc9f617382d98.jpg",
+    "static/media/Veggie Curry w Rice.jpg": "/oolam/static/media/Veggie Curry w Rice.60acfcfd804b0fb20f58.jpg",
+    "static/media/Beef Bolognese.jpg": "/oolam/static/media/Beef Bolognese.983b5ade9c3033a4f706.jpg",
+    "static/media/Custard.jpg": "/oolam/static/media/Custard.4bed66c54cc2ccbcbf76.jpg",
+    "static/media/Bircher Muesli.jpg": "/oolam/static/media/Bircher Muesli.fc7c0524fea7c7ffcf13.jpg",
+    "static/media/Creamy Fish Pasta.jpg": "/oolam/static/media/Creamy Fish Pasta.a3396f8faa4139937486.jpg",
+    "static/media/Fruit Crunch.jpg": "/oolam/static/media/Fruit Crunch.10524387c6774a70012e.jpg",
+    "static/media/Muesli Bar.jpg": "/oolam/static/media/Muesli Bar.db08f4068ce88fa50d2e.jpg",
     "static/media/Oolam logo 2.jpg": "/oolam/static/media/Oolam logo 2.fa5c56850c590291e97e.jpg",
+    "static/media/Butter Chicken.jpg": "/oolam/static/media/Butter Chicken.78f1ef028482c295afab.jpg",
+    "static/media/Toasted Muesli.jpg": "/oolam/static/media/Toasted Muesli.3e8631de62cc49f2ea9c.jpg",
+    "static/media/Pineapple Coconut.JPG": "/oolam/static/media/Pineapple Coconut.25b67bb22ccf808334dc.JPG",
     "index.html": "/oolam/index.html",
-    "main.65a07d91.css.map": "/oolam/static/css/main.65a07d91.css.map",
-    "main.44751c42.js.map": "/oolam/static/js/main.44751c42.js.map",
+    "main.c931afd7.css.map": "/oolam/static/css/main.c931afd7.css.map",
+    "main.8a433270.js.map": "/oolam/static/js/main.8a433270.js.map",
     "787.aa6d1c78.chunk.js.map": "/oolam/static/js/787.aa6d1c78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65a07d91.css",
-    "static/js/main.44751c42.js"
+    "static/css/main.c931afd7.css",
+    "static/js/main.8a433270.js"
   ]
 }
