@@ -44,7 +44,6 @@ export function SelectMorning(props) {
     //retrieves the last selected value that is stored in local storage and updated the value
     useEffect(() => {
         const lastSelectedMorning = JSON.parse(
-            // eslint-disable-next-line
             localStorage.getItem(props.setValue) ?? "[]"
         );
         setSelectedMorning(lastSelectedMorning)
@@ -72,7 +71,6 @@ export function SelectLunch(props) {
 
     //retrieves the last selected value that is stored in local storage and updated the value
     useEffect(() => {
-        // eslint-disable-next-line
         const lastSelectedLunch = JSON.parse(
             localStorage.getItem(props.setValue) ?? "[]"
         );
@@ -101,7 +99,6 @@ export function SelectAfternoon(props) {
 
     //retrieves the last selected value that is stored in local storage and updated the value
     useEffect(() => {
-        // eslint-disable-next-line
         const lastSelectedAfternoon = JSON.parse(
             localStorage.getItem(props.setValue) ?? "[]"
         );
