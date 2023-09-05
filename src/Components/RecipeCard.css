@@ -1,0 +1,282 @@
+/*recipe item component design*/
+.recipeItem {
+    width: 20rem;
+    height: 23rem;
+    margin: 2rem;
+    border: 2px solid #4b4850;
+    border-radius: 2rem;
+    background-color: #eff7f6;
+    filter: drop-shadow(0px 0px 8px #6d6875);
+}
+
+.recipeItem:hover {
+    cursor: pointer;
+    background-color: #ffe4d6;
+}
+
+.recipeImage {
+    width: 15rem;
+    margin: 1rem 1rem 0;
+}
+
+.recipeTitle {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.8rem;
+}
+
+.recipeCardContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #4b4850d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*recipe card component design*/
+.recipeCard {
+    width: 80rem;
+    height: max-content;
+    margin-top: 0;
+    background-color: #eff7f6;
+    border: 2px solid #4b4850;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pangolin', cursive;
+}
+
+.backButton {
+    width: 5rem;
+    background-color: #ffb4a2;
+    margin: 1rem 2rem;
+    border-radius: 1rem;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.25rem;
+}
+
+.backButton:hover {
+    cursor: pointer;
+    color: #eff7f6;
+    background-color: #4b4850;
+}
+
+.reicpeTitle h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+.recipeCardBody {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageContainer {
+    /*border: 2px solid green;*/
+    width: 40%;
+    margin: 2rem 2rem 4rem 4rem;
+}
+
+.recipeCardImage {
+    width: 100%;
+    margin: 0;
+}
+
+.description {
+    width: 100%;
+    margin: 1rem;
+}
+
+.links button {
+    width: 50%;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.5rem;
+}
+
+.ingredientsMenu,
+.procedureMenu {
+    color: #4b4850;
+    background-color: #ffb4a2;
+    text-shadow: 2px 2px 3px #eff7f6;
+}
+
+.recipeBody {
+    width: 100%;
+    margin-right: 2rem;
+    height: max-content;
+    border: 2px solid #4b4850;
+    background-color: #ffe4d6;
+    padding: 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+
+/* Responsive */
+@media screen and (min-width:651px) and (max-width:800px) {
+    .recipeItem {
+        width: 15rem;
+        margin: 1rem;
+        height: 18rem;
+    }
+
+    .recipeTitle {
+        font-size: 1.5rem;
+    }
+
+    .recipeImage {
+        width: 10rem;
+    }
+
+    .recipeCardBody {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageContainer {
+        width: 15rem;
+        justify-self: center;
+        margin: 0;
+    }
+
+    .recipeBody p {
+        margin: .2rem 0;
+    }
+
+    .recipeBody {
+        font-size: 1rem;
+    }
+
+    .description {
+        width: 80%;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .links button {
+        font-size: 1.3rem;
+    }
+
+    .backButton {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:650px) {
+    .recipeItem {
+        width: 10rem;
+        height: 14rem;
+        margin: 1rem;
+    }
+
+    .recipeTitle {
+        font-size: 0.9rem;
+        margin: 0.8rem;
+    }
+
+    .recipeImage {
+        width: 8rem;
+    }
+
+    .recipeCardBody {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageContainer {
+        width: 15rem;
+        justify-self: center;
+        margin: 0;
+    }
+
+    .recipeBody p {
+        margin: .2rem 0;
+    }
+
+    .recipeBody {
+        font-size: 1rem;
+    }
+
+    .description {
+        width: 80%;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .links button {
+        font-size: 1.3rem;
+    }
+
+    .backButton {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .recipeItem {
+        width: 10rem;
+        height: 14rem;
+        margin: 0.5rem;
+    }
+
+    .recipeTitle {
+        font-size: 0.9rem;
+        margin: 0.8rem;
+    }
+
+    .recipeImage {
+        width: 8rem;
+    }
+
+    .recipeCardBody {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageContainer {
+        width: 15rem;
+        justify-self: center;
+        margin: 0;
+    }
+
+    .recipeBody p {
+        margin: .2rem 0;
+    }
+
+    .recipeBody {
+        font-size: 1rem;
+    }
+
+    .description {
+        width: 80%;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .links button {
+        font-size: 1.3rem;
+    }
+
+    .backButton {
+        font-size: 0.8rem;
+    }
+}

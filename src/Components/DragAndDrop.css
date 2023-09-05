@@ -1,0 +1,10 @@
+/*menu selection design*/
+.selection {
+    display: flex;
+    flex-direction: column;
+}
+
+.ddHeading {
+    display: flex;
+    flex-direction: row;
+}

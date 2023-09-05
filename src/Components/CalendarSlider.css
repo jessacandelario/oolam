@@ -1,0 +1,100 @@
+/* Image slides container*/
+.calendarSliderContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+}
+
+/* Arrow button design */
+.previousWeek,
+.nextWeek {
+    font-size: 3rem;
+    background-color: #e4c4bd5c;
+    border: 2px solid #c9ada75c;
+    border-radius: 2rem;
+    height: 4rem;
+    width: 4rem;
+    margin-top: 18rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.previousWeek {
+    margin-right: 2rem;
+}
+
+.nextWeek {
+    margin-left: 2rem;
+}
+
+.previousWeek:hover,
+.nextWeek:hover {
+    background-color: #e4c4bd;
+}
+
+
+/* Responsive */
+@media screen and (min-width:901px) and (max-width:1250px) {
+    /*.calendarSliderContainer {
+        height: 30rem;
+    }*/
+
+    .previousWeek,
+    .nextWeek {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:900px) {
+    .calendarSliderContainer {
+        height: 25rem;
+    }
+
+    .previousWeek,
+    .nextWeek {
+        height: 3rem;
+        width: 3rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:750px) {
+    /*.calendarSliderContainer {
+        height: 20rem;
+    }*/
+
+    .previousWeek,
+    .nextWeek {
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:600px) {
+    /*.calendarSliderContainer {
+        height: 15rem;
+    }*/
+
+    .previousWeek,
+    .nextWeek {
+        height: 2rem;
+        width: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    /*.calendarSliderContainer {
+        height: 10rem;
+    }*/
+
+    .previousWeek,
+    .nextWeek {
+        height: 1.5rem;
+        width: 1.5rem;
+        font-size: 1rem;
+    }
+}

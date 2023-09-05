@@ -1,0 +1,182 @@
+/*home page design*/
+.recipesSelection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    background-color: #ffe4d67d;
+}
+
+.selectionHeading {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.selections {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.label,
+.menuLabel {
+    font-family: 'Handlee', cursive;
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.morning,
+.lunch,
+.afternoon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+}
+
+.morning {
+    background-color: #b2f7ef;
+}
+
+.lunch {
+    background-color: #f2b5d4;
+}
+
+.afternoon {
+    background-color: #f8e16c;
+}
+
+.meal {
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.seeRecipes {
+    font-family: 'Handlee', cursive;
+    font-size: 1.8rem;
+    color: #040404;
+    background-color: #ffb4a2;
+    text-shadow: 2px 2px 3px #eff7f6;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 3rem;
+    margin: 3rem;
+    align-self: center;
+}
+
+.seeRecipes:hover {
+    background-color: #da6c70;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+/*Responsive*/
+@media screen and (min-width:801px) and (max-width:1000px) {
+    .selections {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .selectionHeading {
+        font-size: 2.8rem;
+    }
+
+    .label {
+        writing-mode: vertical-rl;
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    .morning,
+    .lunch,
+    .afternoon {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .seeRecipes {
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:800px) {
+    .recipesSelection {
+        margin-top: 0;
+    }
+
+    .selectionHeading {
+        font-size: 2.2rem;
+    }
+
+    .selections {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .label {
+        writing-mode: vertical-rl;
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .morning,
+    .lunch,
+    .afternoon {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .seeRecipes {
+        margin: 1.5rem;
+        font-size: 1.6rem;
+        height: 2.5rem;
+    }
+
+    .seeRecipes:hover {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .recipesSelection {
+        margin-top: 0;
+    }
+
+    .selectionHeading {
+        font-size: 2.2rem;
+    }
+
+    .selections {
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .label {
+        writing-mode: vertical-rl;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .morning,
+    .lunch,
+    .afternoon {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .seeRecipes {
+        margin: 1.5rem;
+        font-size: 1.4rem;
+        height: 2rem;
+        width: 15rem;
+    }
+
+    .seeRecipes:hover {
+        font-size: 1.6rem;
+    }
+}

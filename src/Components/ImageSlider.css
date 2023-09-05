@@ -1,0 +1,151 @@
+/* Image slides container*/
+.sliderContainer {
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+    width: 100%;
+}
+
+/* Arrow button design */
+.goLeft,
+.goRight {
+    position: absolute;
+    font-size: 3rem;
+    top: 45%;
+    background-color: #e4c4bd5c;
+    border: 2px solid #c9ada75c;
+    border-radius: 2rem;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.goLeft {
+    left: 2rem;
+}
+
+.goRight {
+    right: 2rem;
+}
+
+.goLeft:hover,
+.goRight:hover {
+    background-color: #e4c4bd;
+}
+
+.pics {
+    padding: 1rem;
+
+}
+
+
+/* Responsive */
+@media screen and (min-width:901px) and (max-width:1250px) {
+    .sliderContainer {
+        height: 30rem;
+    }
+
+    .goLeft,
+    .goRight {
+        top: 16rem;
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .goLeft {
+        left: 1.75rem;
+    }
+
+    .goRight {
+        right: 1.75rem;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:900px) {
+    .sliderContainer {
+        height: 25rem;
+    }
+
+    .goLeft,
+    .goRight {
+        top: 14rem;
+        height: 3rem;
+        width: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .goLeft {
+        left: 1.5rem;
+    }
+
+    .goRight {
+        right: 1.5rem;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:750px) {
+    .sliderContainer {
+        height: 20rem;
+    }
+
+    .goLeft,
+    .goRight {
+        top: 11rem;
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .goLeft {
+        left: 1.25rem;
+    }
+
+    .goRight {
+        right: 1.25rem;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:600px) {
+    .sliderContainer {
+        height: 15rem;
+    }
+
+    .goLeft,
+    .goRight {
+        top: 9rem;
+        height: 2rem;
+        width: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .goLeft {
+        left: 1rem;
+    }
+
+    .goRight {
+        right: 1rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .sliderContainer {
+        height: 10rem;
+    }
+
+    .goLeft,
+    .goRight {
+        top: 6rem;
+        height: 1.5rem;
+        width: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .goLeft {
+        left: 0.75rem;
+    }
+
+    .goRight {
+        right: 0.75rem;
+    }
+}

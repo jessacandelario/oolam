@@ -1,0 +1,76 @@
+/*buttons cntainer*/
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/*buttons design*/
+.buttons button {
+    margin: 2rem;
+    width: 15rem;
+    border-radius: 1rem;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.3rem;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    color: #4b4850;
+    background-color: #d7c1c6;
+}
+
+/*buttons when not clicked*/
+.morningMenu,
+.lunchMenu,
+.afternoonMenu {
+    color: #4b4850;
+    background-color: #ffb4a2;
+    text-shadow: 2px 2px 3px #eff7f6;
+}
+
+/*buttons when clicked*/
+.clicked {
+    color: #eff7f6;
+    background-color: #4b4850;
+}
+
+.recipes {
+    margin-top: 0;
+}
+
+
+/*Responsive*/
+@media screen and (min-width:701px) and (max-width:900px) {
+    .buttons button {
+        width: 12rem;
+        margin: 2rem 1rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:561px) and (max-width:700px) {
+    .buttons button {
+        width: 10rem;
+        margin: 2rem 1rem 0;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width:461px) and (max-width:560px) {
+    .buttons button {
+        width: 10rem;
+        margin: 2rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .buttons button {
+        width: 10rem;
+        margin: 2rem 1rem 0;
+        font-size: .9rem;
+        height: 3.5rem;
+    }
+}

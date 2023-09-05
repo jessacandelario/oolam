@@ -1,0 +1,14 @@
+.mealPlanBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Handlee', cursive;
+    margin-top: 2rem;
+}
+
+.calendarSliderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
