@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/oolam/static/css/main.2f729174.css",
-    "main.js": "/oolam/static/js/main.32251a7d.js",
+    "main.js": "/oolam/static/js/main.5830a5b5.js",
     "static/js/787.aa6d1c78.chunk.js": "/oolam/static/js/787.aa6d1c78.chunk.js",
     "static/media/Porridge.jpg": "/oolam/static/media/Porridge.5467b9e02e1363fbfad5.jpg",
     "static/media/Banana Cake.jpg": "/oolam/static/media/Banana Cake.0f645a0b89bbf2d8d149.jpg",
@@ -28,11 +28,11 @@
     "static/media/Pineapple Coconut.JPG": "/oolam/static/media/Pineapple Coconut.25b67bb22ccf808334dc.JPG",
     "index.html": "/oolam/index.html",
     "main.2f729174.css.map": "/oolam/static/css/main.2f729174.css.map",
-    "main.32251a7d.js.map": "/oolam/static/js/main.32251a7d.js.map",
+    "main.5830a5b5.js.map": "/oolam/static/js/main.5830a5b5.js.map",
     "787.aa6d1c78.chunk.js.map": "/oolam/static/js/787.aa6d1c78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f729174.css",
-    "static/js/main.32251a7d.js"
+    "static/js/main.5830a5b5.js"
   ]
 }
