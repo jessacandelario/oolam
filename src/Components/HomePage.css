@@ -10,6 +10,7 @@
 .selectionHeading {
     font-size: 4rem;
     margin-bottom: 0;
+    font-family: 'Handlee', cursive;
 }
 
 .selections {
@@ -21,9 +22,16 @@
 .label,
 .menuLabel {
     font-family: 'Handlee', cursive;
-    font-size: 3rem;
     margin: 0;
     padding-top: 2rem;
+}
+
+.menuLabel {
+    font-size: 4rem;
+}
+
+.label {
+    font-size: 3rem;
 }
 
 .morning,
@@ -50,6 +58,7 @@
 .meal {
     margin-top: 4rem;
     width: 100%;
+    font-family: 'Handlee', cursive;
 }
 
 .seeRecipes {

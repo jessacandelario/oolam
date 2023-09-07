@@ -9,6 +9,7 @@ import { morningTeaItems } from './Components/MorningTeaSelection';
 import { afternoonTeaItems } from './Components/AfternoonTeaSelection';
 import { lunchItems } from './Components/LunchSelection';
 import CalendarSlideContent from './Components/CalendarSlider';
+import SignUpForm from './Components/NewsletterForm';
 
 function App() {
   const [buttonClicked, setButtonClicked] = useState(0) //which to render in body
@@ -69,7 +70,7 @@ function App() {
           <button onClick={() => setRecipeClicked()} className='seeRecipes'>More Recipes</button>
         </div>
         <div className='meal'>
-          <h1 className='menulabel' onClick={() => setMealPlanClicked()}>Create a Menu</h1>
+          <h1 className='menuLabel' onClick={() => setMealPlanClicked()}>Create a Menu</h1>
           <CalendarSlideContent />
         </div>
       </div>
@@ -79,23 +80,39 @@ function App() {
 
   return (
     <div className="App">
-      <nav className='header'>
+      <header className='header'>
         <div className='logoContainer'>
           <img className='logo' src={logo2} alt='oolam' onClick={() => setLogoClicked()} />
         </div>
-        <div className='headerItems'>
+        <nav className='headerItems'>
+          <h3 className={recipe} onClick={() => setRecipeClicked()}>Recipes</h3>
+          <h3 className={mealPlan} onClick={() => setMealPlanClicked()}>Meal Plan</h3>
+        </nav>
+      </header>
+
+      <body>
+        {buttonClicked === 0 && <DefaultHomePage />}
+        {buttonClicked === 1 && <RecipesPage />}
+        {buttonClicked === 2 && <MealPlanPage />}
+      </body>
+
+      <footer>
+        <figure>
+          <img className='footerLogo' src={logo2} alt='oolam' onClick={() => setLogoClicked()} />
+          <figcaption>Your meal plan app</figcaption>
+        </figure>
+
+        <div className='footerItems'>
           <h3 className={recipe} onClick={() => setRecipeClicked()}>Recipes</h3>
           <h3 className={mealPlan} onClick={() => setMealPlanClicked()}>Meal Plan</h3>
         </div>
 
-      </nav>
-      <div>
-        {buttonClicked === 0 && <DefaultHomePage />}
-        {buttonClicked === 1 && <RecipesPage />}
-        {buttonClicked === 2 && <MealPlanPage />}
-      </div>
+        <SignUpForm />
+
+      </footer>
     </div>
   );
 }
 
 export default App;
+

@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: max-content;
 }
 
 /* Arrow button design */
@@ -48,9 +47,6 @@
 }
 
 @media screen and (min-width:751px) and (max-width:900px) {
-    .calendarSliderContainer {
-        height: 25rem;
-    }
 
     .previousWeek,
     .nextWeek {
@@ -61,9 +57,6 @@
 }
 
 @media screen and (min-width:601px) and (max-width:750px) {
-    /*.calendarSliderContainer {
-        height: 20rem;
-    }*/
 
     .previousWeek,
     .nextWeek {
@@ -74,9 +67,6 @@
 }
 
 @media screen and (min-width:451px) and (max-width:600px) {
-    /*.calendarSliderContainer {
-        height: 15rem;
-    }*/
 
     .previousWeek,
     .nextWeek {
@@ -87,9 +77,6 @@
 }
 
 @media screen and (max-width:450px) {
-    /*.calendarSliderContainer {
-        height: 10rem;
-    }*/
 
     .previousWeek,
     .nextWeek {

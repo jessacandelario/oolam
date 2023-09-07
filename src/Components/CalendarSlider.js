@@ -35,7 +35,6 @@ function CalendarSlidesOrder({ slide }) {
         <div className='calendarSliderContainer'>
             <div className='previousWeek' onClick={PreviousWeek}>⇦</div>
             {slide[currentWeek]}
-
             <div className='nextWeek' onClick={NextWeek}>⇨</div>
         </div>
     )
