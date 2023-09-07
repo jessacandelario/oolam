@@ -50,7 +50,13 @@ export function SelectMorning(props) {
     }, [])
 
     return (
-        <Select styles={{ control: (base, state) => ({ base, backgroundColor: 'transparent' }), }}
+        <Select styles={{
+            control: (provided, state) => ({
+                ...provided,
+                backgroundColor: 'transparent', // change the background color of the select box
+            })
+        }}
+            className='ddMenu'
             value={selectedMorning}
             onChange={handleChange}
             placeholder='Select Morning Tea'
@@ -78,7 +84,13 @@ export function SelectLunch(props) {
     }, [])
 
     return (
-        <Select styles={{ control: (base, state) => ({ base, backgroundColor: 'transparent' }), }}
+        <Select styles={{
+            control: (provided, state) => ({
+                ...provided,
+                backgroundColor: 'transparent', // change the background color of the select box
+            })
+        }}
+            className='ddMenu'
             value={selectedLunch}
             onChange={handleChange}
             placeholder='Select Lunch'
@@ -106,7 +118,13 @@ export function SelectAfternoon(props) {
     }, [])
 
     return (
-        <Select styles={{ control: (base, state) => ({ base, backgroundColor: 'transparent' }), }}
+        <Select styles={{
+            control: (provided, state) => ({
+                ...provided,
+                backgroundColor: 'transparent'// change the background color of the select box
+            }),
+        }}
+            className='ddMenu'
             value={selectedAfternoon}
             onChange={handleChange}
             placeholder='Select Afternoon Tea'

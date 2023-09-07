@@ -3,8 +3,9 @@ import { SelectMorning, SelectLunch, SelectAfternoon } from './LocalStorage';
 //import { useEffect } from "react"
 //import useLocalStorage from './LocalStorage'
 
-/*Calendar layout, reusable component*/
+/*week 1 calendar*/
 export function CalendarWeek1() {
+    //set that variable for storing the items in local storage
     const selectMorningValue1 = '1monMorningValue'
     const selectMorningValue2 = '1tueMorningValue'
     const selectMorningValue3 = '1wedMorningValue'
@@ -109,6 +110,7 @@ export function CalendarWeek1() {
         </div>)
 }
 
+//week 2 calendar
 export function CalendarWeek2() {
     const selectMorningValue6 = '2monMorningValue'
     const selectMorningValue7 = '2tueMorningValue'

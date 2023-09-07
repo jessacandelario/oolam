@@ -6,7 +6,7 @@ import { Lunch } from './LunchSelection';
 import { AfternoonTea } from './AfternoonTeaSelection';
 
 function RecipesPage() {
-    const [selection, setSelection] = useState(0)
+    const [selection, setSelection] = useState(0) //for which items to show in recipes body
     const [morning, morningClicked] = useState('morningMenu')
     const [lunch, lunchClicked] = useState('lunchMenu')
     const [afternoon, afternoonClicked] = useState('afternoonMenu')

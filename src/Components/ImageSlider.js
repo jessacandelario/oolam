@@ -12,7 +12,7 @@ function Slide(props) {
     )
 }
 
-//stores iages slides in array
+//stores images slides in array
 function SlideImages() {
     const image = [
         <Slide picture={morningPic} title='Morning Tea Selections' />,
@@ -28,7 +28,7 @@ function SlideImages() {
     )
 }
 
-
+//arranges the order of the images
 export function ImageSlides({ image }) {
     const [currentSlide, setCurrentSlide] = useState(0)
 

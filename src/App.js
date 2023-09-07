@@ -12,12 +12,13 @@ import CalendarSlideContent from './Components/CalendarSlider';
 
 function App() {
   const [buttonClicked, setButtonClicked] = useState(0) //which to render in body
-  const [recipe, recipeClicked] = useState('recipeMenu')
-  const [mealPlan, mealPlanClicked] = useState('mealPlanMenu')
+  const [recipe, recipeClicked] = useState('recipeMenu') //what happens when 'Recipes' is clicked
+  const [mealPlan, mealPlanClicked] = useState('mealPlanMenu') //what happens when 'Meal Plan' is clicked
 
+  //when the logo is clicked
   function setLogoClicked() {
     return (
-      setButtonClicked(0),
+      setButtonClicked(0), //renders default homepage
       recipeClicked('recipeMenu'),
       mealPlanClicked('mealPlanMenu')
     )
@@ -26,7 +27,7 @@ function App() {
   //design of "Recipe" when clicked
   function setRecipeClicked() {
     return (
-      setButtonClicked(1),
+      setButtonClicked(1), //renders recipes page
       recipeClicked('click'),
       mealPlanClicked('mealPlanMenu')
     )
@@ -35,12 +36,13 @@ function App() {
   //design of "Meal Plan" when clicked
   function setMealPlanClicked() {
     return (
-      setButtonClicked(2),
+      setButtonClicked(2), //renders meal plan calendar page
       mealPlanClicked('click'),
       recipeClicked('recipeMenu')
     )
   }
 
+  //home page layout and design
   function DefaultHomePage() {
     return (
       <div>

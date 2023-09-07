@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 //reusable component for menu item and recipe card
 export function RecipeItem(props) {
-    const [contents, setContents] = useState(0)
+    const [contents, setContents] = useState(0) //use state function to determine that will be shown on the recipe body
     const [ingredients, ingredientsClicked] = useState('clicked')
     const [procedure, procedureClicked] = useState('procedureMenu')
 

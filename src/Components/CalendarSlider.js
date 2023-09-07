@@ -2,7 +2,7 @@ import './CalendarSlider.css';
 import { useState } from 'react';
 import { mealPlanCalendar } from './MealPlan';
 
-//stores iages slides in array
+//stores images slides in array
 function CalendarSlideContent() {
     const slide = mealPlanCalendar //assign a variable to the array
 
@@ -13,7 +13,7 @@ function CalendarSlideContent() {
     )
 }
 
-
+//arranges the calendar order in the slides
 function CalendarSlidesOrder({ slide }) {
     const [currentWeek, setCurrentWeek] = useState(0)
 
