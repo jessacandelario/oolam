@@ -16,7 +16,7 @@ const lunchMenu = [
     { value: 'butter chicken', label: 'Butter Chicken and Rice' },
     { value: 'chicken pumpkin', label: 'Chicken Pumpkin Pasta' },
     { value: 'creamy fish', label: 'Creamy Fish Pasta' },
-    { value: 'fish couscous', label: 'Porridge and Fruits' },
+    { value: 'fish couscous', label: 'Moroccan Fish Couscous' },
     { value: 'veggie curry', label: 'Veggie Curry and Rice' }
 ]
 
@@ -131,3 +131,4 @@ export function SelectAfternoon(props) {
             options={afternoonMenu} />
     )
 }
+

@@ -1,7 +1,5 @@
 import './Calendar.css'
 import { SelectMorning, SelectLunch, SelectAfternoon } from './LocalStorage';
-//import { useEffect } from "react"
-//import useLocalStorage from './LocalStorage'
 
 /*week 1 calendar*/
 export function CalendarWeek1() {
@@ -217,72 +215,3 @@ export function CalendarWeek2() {
 }
 
 
-/*
-function MorningTeaSelection() {
-    return (
-        <Select options={morningMenu} />
-    )
-  
-    return (
-        <select className='ddMenu'>
-            <option default>Select Morning Tea</option>
-            <option key='mt1'>{morningMenu[0]}</option>
-            <option key='mt2'>{morningMenu[1]}</option>
-            <option key='mt3'>{morningMenu[2]}</option>
-            <option key='mt4'>{morningMenu[3]}</option>
-            <option key='mt5'>{morningMenu[4]}</option>
-            <option key='mt6'>{morningMenu[5]}</option>
-        </select>
-    )
-
-}  
-
-function LunchSelection() {
-    return (
-        <select className='ddMenu'>
-            <option default>Select Lunch</option>
-            <option key='l1'>{lunchMenu[0]}</option>
-            <option key='l2'>{lunchMenu[1]}</option>
-            <option key='l3'>{lunchMenu[2]}</option>
-            <option key='l4'>{lunchMenu[3]}</option>
-            <option key='l5'>{lunchMenu[4]}</option>
-            <option key='l6'>{lunchMenu[5]}</option>
-        </select>
-    )
-}
-
-function AfternoonTeaSelection() {
-    return (
-        <select className='ddMenu'>
-            <option default>Select Afternoon Tea</option>
-            <option key='a1'>{afternoonMenu[0]}</option>
-            <option key='a2'>{afternoonMenu[1]}</option>
-            <option key='a3'>{afternoonMenu[2]}</option>
-            <option key='a4'>{afternoonMenu[3]}</option>
-            <option key='a5'>{afternoonMenu[4]}</option>
-            <option key='a6'>{afternoonMenu[5]}</option>
-        </select>
-    )
-}
-
-//calendar row reusable component
-function CalendarRow(props) {
-    return (
-        <div className='calendarRow'>
-            <div className='rowName'>{props.rowName}</div>
-            <div className='dayMenu'>
-                <div className='calendarMorning'>
-                    <SelectMorning />
-                </div>
-                <div className='calendarLunch'>
-                    <LunchSelection />
-                </div>
-                <div className='calendarAfternoon'>
-                    <AfternoonTeaSelection />
-                </div>
-            </div>
-        </div>
-
-    )
-}
-*/

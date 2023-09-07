@@ -1,5 +1,40 @@
+import { useState } from 'react'
 import './DragAndDrop.css'
+import { SelectMorning } from './LocalStorage'
+import { DndContext, closestCenter } from '@dnd-kit/core'
 
+/*
+function DndMorning() {
+    const selectMorningValue1 = '1monMorningValue'
+    const selectMorningValue2 = '1tueMorningValue'
+    const selectMorningValue3 = '1wedMorningValue'
+    const selectMorningValue4 = '1thursMorningValue'
+    const selectMorningValue5 = '1friMorningValue'
+
+    const [morningTea, setMorningTea] = useState([
+        <SelectMorning setValue={selectMorningValue1} />,
+        <SelectMorning setValue={selectMorningValue2} />,
+        <SelectMorning setValue={selectMorningValue3} />,
+        <SelectMorning setValue={selectMorningValue4} />,
+        <SelectMorning setValue={selectMorningValue5} />])
+
+    return (
+        <DndContext
+            collisionDetection={closestCenter}
+            onDragEnd={handleDragEnd}>
+            <h1>Morning Tea</h1>
+        </DndContext>
+    )
+
+    function handleDragEnd(event) {
+        console.log("drag ended")
+    }
+}
+
+export default DndMorning
+*/
+
+/*
 //array of menu items
 export const menuItems = [
     {
@@ -19,96 +54,6 @@ export const menuItems = [
     }
 ]
 
-
-
-//calendar
-export function MealPlanCalendar() {
-    return (
-        <div className='calendar' >
-            <div className='calendarTitle'>
-                <h1>Week 1</h1>
-            </div>
-            <div className='calendarBody'>
-                <div className='calendarDay'> {/*group*/}
-                    <div className='columnName'> </div>
-                    <div className='rowName'>Monday</div>
-                    <div className='rowName'>Tuesday</div>
-                    <div className='rowName'>Wednesday</div>
-                    <div className='rowName'>Thursday</div>
-                    <div className='rowName'>Friday</div>
-                </div>
-
-                <div className='calendarMorning'>
-                    <div className='columnName'>Morning Tea</div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                </div>
-                <div className='calendarLunch'>
-                    <div className='columnName'>Lunch</div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-
-                </div>
-                <div className='calendarAfternoon'>
-                    <div className='columnName'>Afternoon Tea</div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                </div>
-            </div>
-
-            <div className='calendarTitle'>
-                <h1>Week 2</h1>
-            </div>
-            <div className='calendarBody'>
-                <div className='calendarDay'> {/*group*/}
-                    <div className='columnName'> </div>
-                    <div className='rowName'>Monday</div>
-                    <div className='rowName'>Tuesday</div>
-                    <div className='rowName'>Wednesday</div>
-                    <div className='rowName'>Thursday</div>
-                    <div className='rowName'>Friday</div>
-                </div>
-
-                <div className='calendarMorning'>
-                    <div className='columnName'>Morning Tea</div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                </div>
-
-                <div className='calendarLunch'>
-                    <div className='columnName'>Lunch</div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                </div>
-
-                <div className='calendarAfternoon'>
-                    <div className='columnName'>Afternoon Tea</div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                    <div className='calendarCell'> </div>
-                </div>
-            </div>
-        </div>
-    )
-}
-
 //menu selection
 export function MenuSelection() {
     return (
@@ -121,5 +66,5 @@ export function MenuSelection() {
                 </div>))}
         </div>
     )
-
 }
+*/

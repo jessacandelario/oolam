@@ -1,5 +1,6 @@
 import './MealPlan.css'
 import { CalendarWeek1, CalendarWeek2 } from './Calendar'
+import CalendarSlideContent from './CalendarSlider'
 
 //meal plan calendar array
 //this is used on the calendar slider
@@ -12,10 +13,8 @@ function MealPlanPage() {
 
     return (
         <div className='mealPlanBody'>
-            <CalendarWeek1 key='week1' />,
-            <CalendarWeek2 key='week2' />
+            <CalendarSlideContent />
         </div>
-
     )
 
 
