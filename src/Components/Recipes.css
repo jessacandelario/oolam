@@ -30,10 +30,23 @@
     text-shadow: 2px 2px 3px #eff7f6;
 }
 
+.morningMenu {
+    filter: drop-shadow(0px 0px 10px #49b6ff);
+}
+
+.lunchMenu {
+    filter: drop-shadow(0px 0px 10px #ff5d8f);
+}
+
+.afternoonMenu {
+    filter: drop-shadow(0px 0px 10px #ffbd00);
+}
+
 /*buttons when clicked*/
 .clicked {
     color: #eff7f6;
     background-color: #4b4850;
+    filter: drop-shadow(0px 0px 10px #6d6875);
 }
 
 .recipes {

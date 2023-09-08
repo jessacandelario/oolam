@@ -127,7 +127,7 @@ export function SelectAfternoon(props) {
             //this will help up change the default style of react-select component
             control: (provided, state) => ({
                 ...provided,
-                backgroundColor: 'transparent'// change the background color of the select box
+                backgroundColor: 'transparent' // change the background color of the select box
             }),
         }}
             className='ddMenu'

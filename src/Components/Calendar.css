@@ -109,7 +109,8 @@
     background-color: rgba(240, 248, 255, 0);
     border: none;
     font-family: 'Handlee', cursive;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     text-align: center;
     margin-top: 1.8rem;
 }
@@ -124,6 +125,7 @@
     color: #ffff3f;
     background-color: #6a040f;
     padding: 0.5rem 1.5rem;
+    filter: drop-shadow(0px 0px 10px #ffbd00);
 }
 
 .weekContainer button:hover {

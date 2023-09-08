@@ -31,7 +31,9 @@ function SignUpForm() {
                 className='formInput'
                 placeholder="Email Address"></input>
             <br></br>
-            <input type="submit" value="Sign Up"></input>
+            <input className='formSubmit'
+                type="submit"
+                value="Sign Up"></input>
         </form>
     )
 }
