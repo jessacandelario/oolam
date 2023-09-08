@@ -2,6 +2,7 @@ import './Calendar.css'
 import { useEffect, useState } from "react"
 import Select from "react-select";
 
+//morning tea selection array
 const morningMenu = [
     { value: 'bircher', label: 'Bircher Muesli' },
     { value: 'crumble', label: 'Fruit Crumble and Yoghurt' },
@@ -11,6 +12,7 @@ const morningMenu = [
     { value: 'muesli', label: 'Toasted Muesli and Yoghurt' }
 ]
 
+//lunch selection array
 const lunchMenu = [
     { value: 'bolognese', label: 'Beef Bolognese and Pasta' },
     { value: 'butter chicken', label: 'Butter Chicken and Rice' },
@@ -20,6 +22,7 @@ const lunchMenu = [
     { value: 'veggie curry', label: 'Veggie Curry and Rice' }
 ]
 
+//afternoon tea selection array
 const afternoonMenu = [
     { value: 'banana cake', label: 'Banana and Chocolate Cake' },
     { value: 'bliss ball', label: 'Bliss Balls' },
@@ -30,7 +33,7 @@ const afternoonMenu = [
 ]
 
 
-//lets value for local storage for morning tea
+//sets value for local storage for morning tea
 export function SelectMorning(props) {
     //create state variable for selectedMorning
     const [selectedMorning, setSelectedMorning] = useState([])
@@ -51,6 +54,7 @@ export function SelectMorning(props) {
 
     return (
         <Select styles={{
+            //this will help up change the default style of react-select component
             control: (provided, state) => ({
                 ...provided,
                 backgroundColor: 'transparent', // change the background color of the select box
@@ -64,7 +68,7 @@ export function SelectMorning(props) {
     )
 }
 
-//lets value for local storage for morning tea
+//sets value for local storage for morning tea
 export function SelectLunch(props) {
     //create state variable for selectedMorning
     const [selectedLunch, setSelectedLunch] = useState([])
@@ -85,6 +89,7 @@ export function SelectLunch(props) {
 
     return (
         <Select styles={{
+            //this will help up change the default style of react-select component
             control: (provided, state) => ({
                 ...provided,
                 backgroundColor: 'transparent', // change the background color of the select box
@@ -119,6 +124,7 @@ export function SelectAfternoon(props) {
 
     return (
         <Select styles={{
+            //this will help up change the default style of react-select component
             control: (provided, state) => ({
                 ...provided,
                 backgroundColor: 'transparent'// change the background color of the select box

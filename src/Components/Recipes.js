@@ -7,10 +7,11 @@ import { AfternoonTea } from './AfternoonTeaSelection';
 
 function RecipesPage() {
     const [selection, setSelection] = useState(0) //for which items to show in recipes body
+
+    //use state for the the buttons functionality
     const [morning, morningClicked] = useState('morningMenu')
     const [lunch, lunchClicked] = useState('lunchMenu')
     const [afternoon, afternoonClicked] = useState('afternoonMenu')
-
 
     //design of buttons when morning tea is clicked
     function setMorningClicked() {

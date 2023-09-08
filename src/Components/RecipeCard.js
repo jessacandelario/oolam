@@ -22,7 +22,6 @@ export function RecipeItem(props) {
         procedureClicked('clicked')
     }
 
-
     return (
         <Popup trigger={<div className='recipeItem' >
             <img className='recipeImage' src={props.image} alt={props.title} />
@@ -74,7 +73,7 @@ export function RecipeItem(props) {
                         </div>
                     </div>
                 </div>
-
-            </div>)}</Popup>
+            </div>)}
+        </Popup>
     )
 }

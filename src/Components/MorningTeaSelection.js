@@ -6,7 +6,7 @@ import custard from '../Components/images/Custard.jpg'
 import porridge from '../Components/images/Porridge.jpg'
 import toastedMuesli from '../Components/images/Toasted Muesli.jpg'
 
-//Morning Tea selections array
+//Morning Tea recipes array
 export const morningTeaItems = [
     <RecipeItem className='morning1'
         key={crypto.randomUUID()} //generates random number for key

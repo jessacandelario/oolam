@@ -13,8 +13,10 @@ import SignUpForm from './Components/NewsletterForm';
 
 function App() {
   const [buttonClicked, setButtonClicked] = useState(0) //which to render in body
-  const [recipe, recipeClicked] = useState('recipeMenu') //what happens when 'Recipes' is clicked
-  const [mealPlan, mealPlanClicked] = useState('mealPlanMenu') //what happens when 'Meal Plan' is clicked
+
+  //use state for the functionality of nav bar/footer items
+  const [recipe, recipeClicked] = useState('recipeMenu')
+  const [mealPlan, mealPlanClicked] = useState('mealPlanMenu')
 
   //when the logo is clicked
   function setLogoClicked() {
@@ -77,7 +79,6 @@ function App() {
     )
   }
 
-
   return (
     <div className="App">
       <header className='header'>
@@ -90,11 +91,11 @@ function App() {
         </nav>
       </header>
 
-      <body>
+      <div>
         {buttonClicked === 0 && <DefaultHomePage />}
         {buttonClicked === 1 && <RecipesPage />}
         {buttonClicked === 2 && <MealPlanPage />}
-      </body>
+      </div>
 
       <footer>
         <figure>

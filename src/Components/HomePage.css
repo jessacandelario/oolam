@@ -17,10 +17,10 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    font-family: 'Handlee', cursive;
 }
 
-.label,
-.menuLabel {
+.label {
     font-family: 'Handlee', cursive;
     margin: 0;
     padding-top: 2rem;
@@ -28,6 +28,8 @@
 
 .menuLabel {
     font-size: 4rem;
+    font-family: 'Handlee', cursive;
+    margin: 0;
 }
 
 .label {
@@ -88,7 +90,8 @@
         height: max-content;
     }
 
-    .selectionHeading {
+    .selectionHeading,
+    .menuLabel {
         font-size: 2.8rem;
     }
 
@@ -116,7 +119,8 @@
         margin-top: 0;
     }
 
-    .selectionHeading {
+    .selectionHeading,
+    .menuLabel {
         font-size: 2.2rem;
     }
 
@@ -155,7 +159,8 @@
         margin-top: 0;
     }
 
-    .selectionHeading {
+    .selectionHeading,
+    .menuLabel {
         font-size: 2.2rem;
     }
 

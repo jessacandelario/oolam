@@ -6,7 +6,7 @@ import crunchPlatter from '../Components/images/Crunch Platter.jpg'
 import muesliBar from '../Components/images/Muesli Bar.jpg'
 import pineappleCoconut from '../Components/images/Pineapple Coconut.JPG'
 
-//Afternoon tea selection array
+//Afternoon tea recipes array
 export const afternoonTeaItems = [
     <RecipeItem className='afternoon1'
         key={crypto.randomUUID()}

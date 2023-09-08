@@ -10,23 +10,11 @@ export const mealPlanCalendar = [
 ]
 
 function MealPlanPage() {
-
     return (
         <div className='mealPlanBody'>
             <CalendarSlideContent />
         </div>
     )
-
-
 }
-
-/*
-    return (
-        <div className='mealPlanBody'>
-            {mealPlanCalendar}
-        </div>
-
-    )
-    */
 
 export default MealPlanPage

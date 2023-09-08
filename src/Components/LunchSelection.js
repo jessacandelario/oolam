@@ -7,7 +7,7 @@ import fishCouscous from '../Components/images/Fish Couscous.jpg'
 import veggieCurry from '../Components/images/Veggie Curry w Rice.jpg'
 
 
-//Lunch selections array
+//Lunch recipes array
 export const lunchItems = [
     <RecipeItem className='lunch1'
         key={crypto.randomUUID()}
@@ -130,6 +130,7 @@ export const lunchItems = [
         procedure5='5.	Add coconut cream and bring to a boil.'
         procedure6='6.	Remove from heat and serve with wholemeal pasta.' />
 ]
+
 //Lunch selections function
 export function Lunch() {
     return (

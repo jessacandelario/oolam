@@ -8,7 +8,7 @@ function SignUpForm() {
         setSubmit(event.target.value);
     }
 
-    //
+    //when submit button is clicked
     function handleSubmit(event) {
         event.preventDefault();
         alert('Hello, ' + submit + ' Thank you for signing up to our newsletter!');
@@ -17,14 +17,16 @@ function SignUpForm() {
     return (
         <form onSubmit={handleSubmit}>
             <h3>Sign up for newsletter</h3>
-            <input required type="text"
+            <input required
+                type="text"
                 name="name"
                 value={submit}
                 className='formInput'
                 onChange={handleChange}
                 placeholder="Name"></input>
             <br></br>
-            <input required type="email"
+            <input required
+                type="email"
                 name="email"
                 className='formInput'
                 placeholder="Email Address"></input>
