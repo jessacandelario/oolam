@@ -115,6 +115,7 @@
     margin-top: 1.8rem;
 }
 
+
 /*Reset button design*/
 .weekContainer button {
     height: 3.5rem;
@@ -125,13 +126,23 @@
     color: #ffff3f;
     background-color: #6a040f;
     padding: 0.5rem 1.5rem;
-    filter: drop-shadow(0px 0px 10px #ffbd00);
+    box-shadow: 0px 0px 15px #2e294e;
 }
 
-.weekContainer button:hover {
+/*pulse effect for button hover*/
+.weekContainer button:hover,
+.weekContainer button:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em transparent;
     cursor: pointer;
     background-color: #9d0208;
     font-size: 1.5rem;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #ffff3f;
+    }
 }
 
 

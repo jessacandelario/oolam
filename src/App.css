@@ -24,7 +24,8 @@ header {
   margin-left: 20%;
 }
 
-.logo:hover {
+.logo:hover,
+.footerLogo:hover {
   cursor: pointer;
 }
 

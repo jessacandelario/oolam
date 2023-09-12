@@ -33,7 +33,7 @@ function SignUpForm() {
             <br></br>
             <input className='formSubmit'
                 type="submit"
-                value="Sign Up"></input>
+                value="Sign-Up"></input>
         </form>
     )
 }

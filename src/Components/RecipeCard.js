@@ -27,6 +27,7 @@ export function RecipeItem(props) {
             <img className='recipeImage' src={props.image} alt={props.title} />
             <h1 className='recipeTitle'>{props.title}</h1>
         </div>}
+            /*this is the component that will pop up when the trigger is clicked.*/
             modal nested>{close => (<div className='recipeCardContainer' >
                 <div className='recipeCard'>
                     <button className='backButton' onClick={() => close()}>Back</button>
@@ -41,7 +42,7 @@ export function RecipeItem(props) {
                                 <button className={ingredients} onClick={() => setIngredientsClicked()}>Ingredients</button>
                                 <button className={procedure} onClick={() => setProcedureClicked()}>Procedure</button>
                             </div>
-
+                            {/*list of ingredients*/}
                             <div className='recipeBody'>
                                 {contents === 0 &&
                                     <div>
@@ -58,6 +59,7 @@ export function RecipeItem(props) {
                                         <p>{props.ingredients11}</p>
                                         <p>{props.ingredients12}</p>
                                     </div>}
+                                {/*list of procedure*/}
                                 {contents === 1 &&
                                     <div>
                                         <p>{props.procedure1}</p>

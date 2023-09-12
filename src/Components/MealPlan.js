@@ -1,5 +1,6 @@
 import './MealPlan.css'
-import { CalendarWeek1, CalendarWeek2 } from './Calendar'
+import { CalendarWeek1 } from './CalendarWeek1'
+import { CalendarWeek2 } from './CalendarWeek2'
 import CalendarSlideContent from './CalendarSlider'
 
 //meal plan calendar array

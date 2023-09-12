@@ -21,7 +21,7 @@ export const morningTeaItems = [
         ingredients7='8 kg Fresh Fruits'
         procedure1='1.	Place all dry ingredients into a large bowls evenly and mix'
         procedure2='2.	Add coconut milk and water, and mix until you create a creamy texture.'
-        procedure3='3.	Let it soak overnight in the fridge.'
+        procedure3='3.	Let it soak in the fridge overnight.'
         procedure4='4.	Divide into portions and serve with fresh fruits.' />,
 
     <RecipeItem className='morning2'
@@ -37,7 +37,7 @@ export const morningTeaItems = [
         ingredients7='2 Cups Sunflower Oil'
         procedure1='1.	Preheat the oven to 200C.'
         procedure2='2.	Place the fruits into a large bowl.'
-        procedure3='3.	Add maple syrup, cornflour and water/juice and mix well.'
+        procedure3='3.	Add maple syrup, cornflour and water/juice to the bowl of fruits and mix well.'
         procedure4='4.	Divide into baking dishes and bake for 20 minutes or until the fruit is tender and it thickens.'
         procedure5='5.	To make the crumble, place the flour, cinnamon, and oil into a food processor. Pulse for a few seconds to form rough breadcrumbs.'
         procedure6='6.	Scatter the crumble over the fruit and bake uncovered for 20 minutes or until golden.'

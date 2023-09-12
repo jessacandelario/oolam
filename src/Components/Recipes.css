@@ -19,6 +19,8 @@
     cursor: pointer;
     color: #4b4850;
     background-color: #d7c1c6;
+    transform: translateY(-0.25em)
+        /*raises the button when hovered*/
 }
 
 /*buttons when not clicked*/

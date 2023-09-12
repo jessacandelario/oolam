@@ -13,6 +13,7 @@
     font-family: 'Handlee', cursive;
 }
 
+/*Selection container*/
 .selections {
     display: flex;
     flex-direction: row;
@@ -20,6 +21,7 @@
     font-family: 'Handlee', cursive;
 }
 
+/*Selection label*/
 .label {
     font-family: 'Handlee', cursive;
     margin: 0;
@@ -27,12 +29,7 @@
     font-size: 3rem;
 }
 
-.menuLabel {
-    font-size: 4rem;
-    font-family: 'Handlee', cursive;
-    margin: 0;
-}
-
+/*recipe category container*/
 .morning,
 .lunch,
 .afternoon {
@@ -54,12 +51,34 @@
     background-color: #f8e16c;
 }
 
+/*Meal plan calendar section container*/
 .meal {
     margin-top: 4rem;
     width: 100%;
     font-family: 'Handlee', cursive;
 }
 
+/*Meal Plan calendar label*/
+.menuLabel {
+    font-size: 4rem;
+    font-family: 'Handlee', cursive;
+    margin: 0;
+}
+
+.selectionHeading:hover,
+.menuLabel:hover {
+    cursor: pointer;
+}
+
+.selectionHeading:hover,
+.selectionHeading:focus,
+.menuLabel:hover,
+.menuLabel:focus {
+    text-shadow: 2px 2px 3px #da6c70;
+    transform: translateY(-0.25em)
+}
+
+/*See recipes button*/
 .seeRecipes {
     font-family: 'Handlee', cursive;
     font-size: 1.8rem;
@@ -75,9 +94,15 @@
 }
 
 .seeRecipes:hover {
-    background-color: #da6c70;
     cursor: pointer;
     font-size: 2rem;
+    background-color: #d6ffb7;
+}
+
+.seeRecipes:hover,
+.seeRecipes:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 1em transparent;
 }
 
 

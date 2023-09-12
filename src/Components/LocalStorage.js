@@ -32,6 +32,7 @@ const afternoonMenu = [
     { value: 'pineapple coconut', label: 'Pineapple Coconut Cake' }
 ]
 
+//created 3 different functions for each meal group so correct array can be passed in each
 
 //sets value for local storage for morning tea
 export function SelectMorning(props) {
@@ -40,26 +41,28 @@ export function SelectMorning(props) {
 
     //function to be called when user selects an option
     const handleChange = (m) => {
-        localStorage.setItem(props.setValue, JSON.stringify(m));
+        localStorage.setItem(props.setValue, JSON.stringify(m)); //passed as props so we can assign different value for each calendar cell
         setSelectedMorning(m)
     }
 
     //retrieves the last selected value that is stored in local storage and updated the value
     useEffect(() => {
         const lastSelectedMorning = JSON.parse(
-            localStorage.getItem(props.setValue) ?? "[]"
+            localStorage.getItem(props.setValue) ?? "[]" //passed as props so we can assign different value for each calendar cell
         );
         setSelectedMorning(lastSelectedMorning)
     }, [])
 
     return (
-        <Select styles={{
+        <Select
             //this will help up change the default style of react-select component
-            control: (provided, state) => ({
-                ...provided,
-                backgroundColor: 'transparent', // change the background color of the select box
-            })
-        }}
+            styles={{
+                control: (provided, state) => ({
+                    ...provided,
+                    backgroundColor: 'transparent', // change the background color of the select box
+                    cursor: 'pointer' // change the cursor to pointer 
+                })
+            }}
             className='ddMenu'
             value={selectedMorning}
             onChange={handleChange}
@@ -68,33 +71,35 @@ export function SelectMorning(props) {
     )
 }
 
-//sets value for local storage for morning tea
+//sets value for local storage for lunch
 export function SelectLunch(props) {
-    //create state variable for selectedMorning
+    //create state variable for selectedLunch
     const [selectedLunch, setSelectedLunch] = useState([])
 
     //function to be called when user selects an option
     const handleChange = (l) => {
-        localStorage.setItem(props.setValue, JSON.stringify(l));
+        localStorage.setItem(props.setValue, JSON.stringify(l)); //passed as props so we can assign different value for each calendar cell
         setSelectedLunch(l)
     }
 
     //retrieves the last selected value that is stored in local storage and updated the value
     useEffect(() => {
         const lastSelectedLunch = JSON.parse(
-            localStorage.getItem(props.setValue) ?? "[]"
+            localStorage.getItem(props.setValue) ?? "[]" //passed as props so we can assign different value for each calendar cell
         );
         setSelectedLunch(lastSelectedLunch)
     }, [])
 
     return (
-        <Select styles={{
+        <Select
             //this will help up change the default style of react-select component
-            control: (provided, state) => ({
-                ...provided,
-                backgroundColor: 'transparent', // change the background color of the select box
-            })
-        }}
+            styles={{
+                control: (provided, state) => ({
+                    ...provided,
+                    backgroundColor: 'transparent', // change the background color of the select box
+                    cursor: 'pointer' // change the cursor to pointer
+                })
+            }}
             className='ddMenu'
             value={selectedLunch}
             onChange={handleChange}
@@ -103,33 +108,35 @@ export function SelectLunch(props) {
     )
 }
 
-//lets value for local storage for morning tea
+//lets value for local storage for afternoon tea
 export function SelectAfternoon(props) {
-    //create state variable for selectedMorning
+    //create state variable for selectedAfternoon
     const [selectedAfternoon, setSelectedAfternoon] = useState([])
 
     //function to be called when user selects an option
     const handleChange = (a) => {
-        localStorage.setItem(props.setValue, JSON.stringify(a));
+        localStorage.setItem(props.setValue, JSON.stringify(a)); //passed as props so we can assign different value for each calendar cell
         setSelectedAfternoon(a)
     }
 
     //retrieves the last selected value that is stored in local storage and updated the value
     useEffect(() => {
         const lastSelectedAfternoon = JSON.parse(
-            localStorage.getItem(props.setValue) ?? "[]"
+            localStorage.getItem(props.setValue) ?? "[]" //passed as props so we can assign different value for each calendar cell
         );
         setSelectedAfternoon(lastSelectedAfternoon)
     }, [])
 
     return (
-        <Select styles={{
+        <Select
             //this will help up change the default style of react-select component
-            control: (provided, state) => ({
-                ...provided,
-                backgroundColor: 'transparent' // change the background color of the select box
-            }),
-        }}
+            styles={{
+                control: (provided, state) => ({
+                    ...provided,
+                    backgroundColor: 'transparent', // change the background color of the select box
+                    cursor: 'pointer' // change the cursor to pointer
+                }),
+            }}
             className='ddMenu'
             value={selectedAfternoon}
             onChange={handleChange}

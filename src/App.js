@@ -49,9 +49,13 @@ function App() {
   function DefaultHomePage() {
     return (
       <div>
+        {/*Image slider */}
         <SlideImages />
+        {/*Recipes Selection */}
         <div className='recipesSelection'>
-          <h1 onClick={() => setRecipeClicked()} className='selectionHeading'>Recipe Selections</h1>
+          <h1
+            onClick={() => setRecipeClicked()}
+            className='selectionHeading'>Recipe Selections</h1>
           <div className='selections'>
             <div className='morning'>
               <h1 className='label'>Morning Tea</h1>
@@ -69,10 +73,15 @@ function App() {
               {afternoonTeaItems[1]}
             </div>
           </div>
-          <button onClick={() => setRecipeClicked()} className='seeRecipes'>More Recipes</button>
+          <button
+            onClick={() => setRecipeClicked()}
+            className='seeRecipes'>More Recipes</button>
         </div>
+        {/*Meal plan calendar*/}
         <div className='meal'>
-          <h1 className='menuLabel' onClick={() => setMealPlanClicked()}>Create a Menu</h1>
+          <h1
+            className='menuLabel'
+            onClick={() => setMealPlanClicked()}>Create a Menu</h1>
           <CalendarSlideContent />
         </div>
       </div>
@@ -81,35 +90,38 @@ function App() {
 
   return (
     <div className="App">
+      {/*header*/}
       <header className='header'>
+        {/*header logo*/}
         <div className='logoContainer'>
           <img className='logo' src={logo2} alt='oolam' onClick={() => setLogoClicked()} />
         </div>
+        {/*header nav*/}
         <nav className='headerItems'>
           <h3 className={recipe} onClick={() => setRecipeClicked()}>Recipes</h3>
           <h3 className={mealPlan} onClick={() => setMealPlanClicked()}>Meal Plan</h3>
         </nav>
       </header>
-
+      {/*body*/}
       <div>
         {buttonClicked === 0 && <DefaultHomePage />}
         {buttonClicked === 1 && <RecipesPage />}
         {buttonClicked === 2 && <MealPlanPage />}
       </div>
-
+      {/*footer*/}
       <footer>
         <figure>
+          {/*footer logo */}
           <img className='footerLogo' src={logo2} alt='oolam' onClick={() => setLogoClicked()} />
-          <figcaption>Your meal plan app</figcaption>
+          <figcaption>Your meal plan partner</figcaption>
         </figure>
-
+        {/*footer nav */}
         <div className='footerItems'>
           <h3 className={recipe} onClick={() => setRecipeClicked()}>Recipes</h3>
           <h3 className={mealPlan} onClick={() => setMealPlanClicked()}>Meal Plan</h3>
         </div>
-
+        {/*footer sign up form */}
         <SignUpForm />
-
       </footer>
     </div>
   );

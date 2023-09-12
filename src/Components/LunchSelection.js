@@ -24,10 +24,10 @@ export const lunchItems = [
         procedure1='1.	Heat large pot with a little oil, add the garlic and sauté for 5 minutes.'
         procedure2='2.	Add the beef and saute until the beef mince turns brown.'
         procedure3='3.	Add tomato, tomato paste and mixed herbs and saute until it boils.'
-        procedure4='4.	Add the Water, and let it simmer'
+        procedure4='4.	Add the water, and let it simmer'
         procedure5='5.	Add vegetables and let simmer for another 20-25minutes.'
         procedure6='6.	Cook pasta as per packet instructions.'
-        procedure7='7.	Serve in steel dishes with rice.' />,
+        procedure7='7.	Serve with pasta.' />,
 
     <RecipeItem className='lunch2'
         key={crypto.randomUUID()}
@@ -128,7 +128,7 @@ export const lunchItems = [
         procedure3='3.	Add chickpea, vegetable booster, and water and bring to boil'
         procedure4='4.	Reduce to a simmer and add mixed vegetables. simmer for another 30 mins.'
         procedure5='5.	Add coconut cream and bring to a boil.'
-        procedure6='6.	Remove from heat and serve with wholemeal pasta.' />
+        procedure6='6.	Remove from heat and serve with rice.' />
 ]
 
 //Lunch selections function
