@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oolam/static/css/main.26cb25fd.css",
-    "main.js": "/oolam/static/js/main.75804d06.js",
+    "main.css": "/oolam/static/css/main.ea21a5cb.css",
+    "main.js": "/oolam/static/js/main.c7cbd372.js",
     "static/js/787.aa6d1c78.chunk.js": "/oolam/static/js/787.aa6d1c78.chunk.js",
     "static/media/Porridge.jpg": "/oolam/static/media/Porridge.5467b9e02e1363fbfad5.jpg",
     "static/media/Banana Cake.jpg": "/oolam/static/media/Banana Cake.0f645a0b89bbf2d8d149.jpg",
@@ -27,12 +27,12 @@
     "static/media/Toasted Muesli.jpg": "/oolam/static/media/Toasted Muesli.3e8631de62cc49f2ea9c.jpg",
     "static/media/Pineapple Coconut.JPG": "/oolam/static/media/Pineapple Coconut.25b67bb22ccf808334dc.JPG",
     "index.html": "/oolam/index.html",
-    "main.26cb25fd.css.map": "/oolam/static/css/main.26cb25fd.css.map",
-    "main.75804d06.js.map": "/oolam/static/js/main.75804d06.js.map",
+    "main.ea21a5cb.css.map": "/oolam/static/css/main.ea21a5cb.css.map",
+    "main.c7cbd372.js.map": "/oolam/static/js/main.c7cbd372.js.map",
     "787.aa6d1c78.chunk.js.map": "/oolam/static/js/787.aa6d1c78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26cb25fd.css",
-    "static/js/main.75804d06.js"
+    "static/css/main.ea21a5cb.css",
+    "static/js/main.c7cbd372.js"
   ]
 }
