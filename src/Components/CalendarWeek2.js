@@ -121,7 +121,7 @@ export function CalendarWeek2() {
                         </div>
                     </div>
                 </div>
-                <button onClick={resetCalendar}>Reset Week 2</button>
+                <button onClick={resetCalendar}>Reset Calendar</button>
             </div>
         )
     }
